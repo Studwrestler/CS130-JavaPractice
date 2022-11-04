@@ -70,6 +70,8 @@ public class Employee {
 	public static void main(String[] args) {
 		Employee employee1 = new Employee("Harry", "Potter", "Actor", 200.0 , 41);
 		System.out.println(employee1.displayPayCheck());
+		Employee employee2 = new Employee("John", "Doe", "The Boss", 20.00 , 30);
+		System.out.println(employee2.displayPayCheck());
 
 	}
 
